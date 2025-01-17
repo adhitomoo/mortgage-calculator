@@ -232,7 +232,8 @@ export default function Home() {
               </div>
 
               <button type="submit" className="btn py-4 bg-lime rounded-5xl w-full sm:w-2/3 px-18 flex flex-row justify-center items-center gap-4 mt-4">
-                <img src="/images/icon-calculator.svg" alt="icon-calculator-button" className="px-4" />
+                {/* <Image src="/images/icon-calculator.svg" alt="" className="px-4" width={20} height={10} /> */}
+                <Image src="/images/icon-calculator.svg" alt="icon-calculator-button" width={30} height={20} />
                 Calculate Repayments
               </button>
             </form>
@@ -261,7 +262,7 @@ export default function Home() {
                   <div className="bg-slate-400 w-full h-0.5"></div>
 
                   <div className="flex flex-col gap-4">
-                    <div className="text-lg text-slate-400">Total you'll repay over the term</div>
+                    <div className="text-lg text-slate-400">Total you&apos;ll repay over the term</div>
                     <div className="text-2xl text-lime font-bold">{symbolKurs} { totalPayment }</div>
                   </div>
                 </div>
